@@ -5,9 +5,7 @@
     "typecheck": "tsc"
   },
   "license": "MIT",
-  "type": "module",
-  "name": "hooks",
-  "packageManager": "yarn@1.22.19",
+  "name": "react",
   "dependencies": {
     "html-webpack-plugin": "^5.5.3",
     "react": "^18.2.0",
@@ -26,12 +24,16 @@
     "@types/node": "^20.5.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
-    "@types/webpack": "^5.28.1",
     "babel-loader": "^9.1.3",
     "path": "^0.12.7",
     "ts-loader": "^9.4.4",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lucaswinningham/react.git",
+  "author": "Lucas Winningham <lucas.winningham@gmail.com>",
+  "packageManager": "yarn@1.22.19"
 }

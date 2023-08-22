@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./src/*"
-      ]
+        "./src/*",
+      ],
     },
     "target": "es2022",
     "module": "commonjs",
@@ -13,9 +13,14 @@
     "jsx": "react-jsx",
     "outDir": "./dist",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
   },
   "include": [
-    "**/*"
-  ]
+    "**/*.ts",
+    "**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+  ],
 }
