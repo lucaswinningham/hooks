@@ -1,0 +1,6 @@
+.contact-information {
+  .contact-information-row {
+    display: flex;
+    align-items: center;
+  }
+}

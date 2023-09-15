@@ -1,0 +1,27 @@
+@page {
+  size: 8.5in 11in;
+  margin: 0;
+  page-orientation: upright;
+}
+
+@media print {
+  .no-print{
+    display: none;
+  }
+}
+
+.us-letter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 0.05em solid red;
+}
+
+.resume-container {
+  /* 300px per in */
+  /* width: 2550px; /* 8-1/2" */
+  /* height: 3300px; /* 11" */
+  width: 100vw;
+  height: 129vw; /* 11 / 8.5 * 100 = 1.294... */
+  border: 0.05em solid black;
+}
