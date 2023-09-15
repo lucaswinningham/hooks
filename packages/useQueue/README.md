@@ -274,4 +274,4 @@ yarn start
 
 and we should see
 
-![Successfully running app]()
+![Successfully running app](https://github.com/lucaswinningham/react/assets/24572180/781b3b6b-f9a4-4506-b41f-58ace3d55269)
