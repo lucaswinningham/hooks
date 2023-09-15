@@ -29,12 +29,10 @@ export type Messaging = {
   //   participant: User;
   //   thread: Thread;
   // };
-  participants: {
-    [participantId: Id]: User;
-  };
-  threads: {
-    [threadId: Id]: Thread;
-  };
+  // participants: {
+  //   [participantId: Id]: User;
+  // };
+  [threadId: Id]: Thread;
 };
 
 export type Post = {
